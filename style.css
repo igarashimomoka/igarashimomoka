@@ -89,9 +89,14 @@ body {
     font-size: 1.2rem;
   }
 
+  .top-visual {
+    margin-top: 100px; /* スマホでの余白をさらに広げると安心！ */
+  }
+
   /* TOP画像をもっと大きく表示する */
   .top-visual img {
     max-width: 80%;
+    margin-top: 60px; /* ナビバーの高さ分だけ下げる */
   }
 
   /* トップの紹介文も少し大きく */
