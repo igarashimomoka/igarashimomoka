@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>さくひん｜いがらしももか</title>
+  <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">
+  <style>
+footer {
+  width: 100vw; /* 画面いっぱいに */
+  background-color: white; /* 背景白 */
+  color: #7e4f84; /* 文字色ラベンダー */
+  text-align: center;
+  padding: 2px 0;
+  margin: 0;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  font-family: "Zen Maru Gothic", sans-serif;
+  box-sizing: border-box;
+}
+
+footer .container,
+footer .inner {
+  max-width: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+.gallery {
+  padding: 40px 20px;
+
+}
+
+.gallery h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #6e4c7f; /* ももちゃんのテーマカラーに合わせて調整してOK */
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.gallery-item {
+  background: #fdf9fb;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+
+.gallery-item:hover {
+  transform: translateY(-4px);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.caption h3 {
+  font-size: 1.2rem;
+  margin: 10px 0 5px;
+  color: #444;
+}
+
+.caption p {
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+  </style>
+
+<body>
+<header>
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">はじめに</a></li>
+      <li><a href="profile.html">わたし</a></li>
+      <li><a href="works.html">さくひん</a></li>
+      <li><a href="https://note.com/igarashimomoka">にっき</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="gallery">
+  <h2>さくひん</h2>
+  <div class="gallery-grid">
+    <div class="gallery-item">
+      <a href="作品ページ.html">
+        <img src="img/sample3.jpg" alt="フライヤー">
+      </a>
+      <div class="caption">
+        <h3>ショートケーキフェスフライヤー</h3>
+        <p>架空のイベントのフライヤー</p>
+      </div>
+    </div>
+    <div class="gallery-item">
+      <a href="作品ページ.html">
+        <img src="img/sample2.jpg" alt="無題">
+      </a>
+      <div class="caption">
+        <h3>無題</h3>
+        <p>儚い系イラスト</p>
+      </div>
+    </div>
+    <div class="gallery-item">
+      <a href="work/sample1.html">
+        <img src="img/sample1.jpg" alt="ウォーリー・ワート">
+      </a>
+      <div class="caption">
+        <h3>ウォーリー・ワート</h3>
+        <p>卒業制作作品</p>
+      </div>
+    </div>
+    <!-- 繰り返し -->
+  </div>
+</section>
+
+<br><br>
+
+  <footer>
+    <p>&copy; 2025 いがらしももか</p>
+  </footer>
+
+</body>
+</html>
