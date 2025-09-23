@@ -269,7 +269,7 @@ body {
 }
 
 .contact-mail {
-  color: #e86ca8;
+  color: #704c9f;
 }
 .contact-mail:hover {
   color: #5a356a;
@@ -279,7 +279,7 @@ body {
 
 .site-footer {
   background-color: #fff;
-  color: #704c9f; /* ちょっと濃い紫文字 */
+  color: #704c9f; 
   text-align: center;
   padding: 2em 1em;
   font-size: 0.9em;
