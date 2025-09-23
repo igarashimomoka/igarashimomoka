@@ -135,6 +135,28 @@ footer .inner {
   background-color: #c79acb;
 }
 
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 アスペクト比 */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  margin: 0 auto; /* センタリング */
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.center{
+    text-align: center;
+}
+
   </style>
 
 
@@ -147,12 +169,10 @@ footer .inner {
 <main class="work-detail">
   <h1 class="center">ウォーリー・ワート</h1>
 
-  <div class="video-wrapper">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUTUBE_ID" 
-      title="ウォーリー・ワート" frameborder="0" allowfullscreen></iframe>
-  </div>
-
   <div class="work-description center">
+<a href="https://www.youtube.com/watch?v=0myKVq2H_xU" class="center" target="_blank">
+  <img src="../img/video-thumbnail.jpg" alt="動画サムネイル" style="max-width:100%;">
+</a>
     <p>コラージュアートをベースに、<br>
     コマ撮りアニメーションを制作しました！</p>
     <p>1枚1枚撮影をして、アニメーションにしております。</p>
