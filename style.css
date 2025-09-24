@@ -57,7 +57,7 @@ body {
 
 .top-visual-inner {
   text-align: center;
-  width: 100%;
+  width: 50%;
   max-width: 600px;
   padding: 0 16px;
   margin: 0 auto;          
@@ -192,7 +192,7 @@ body {
 
 .news-content {
   font-size: 1em;
-  color: #444;
+  color: #6e5c50;
 }
 
 /* SNS */
@@ -312,6 +312,8 @@ body {
 
   .top-visual-inner {
     padding: 0 10px !important;
+  width: 80%;
+
   }
 
   .intro-text {
