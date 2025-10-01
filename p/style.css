@@ -102,7 +102,7 @@ body {
 /* プロフィール */
 
 .profile-section {
-  padding: 60px 20px;
+  padding: 10px 20px;
   background-color: rgba(255, 255, 255, 0);
   text-align: center;
 }
@@ -203,9 +203,18 @@ body {
     font-size: 1.1rem !important;
   }
 
+
+.profile-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
   .profile-image {
-    width: 120px !important;
-    height: 120px !important;
+    width: 180px !important;
+    height: auto !important;
   }
 
   .profile-text h2 {
