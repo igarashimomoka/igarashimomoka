@@ -11,3 +11,5 @@
   document.querySelectorAll('.fade-item').forEach(el => {
     observer.observe(el);
   });
+  threshold: 0.1 
+});
