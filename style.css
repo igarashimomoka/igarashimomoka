@@ -103,6 +103,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+
 }
 
 .profile-image {
@@ -112,7 +113,7 @@ body {
   border-radius: 50%;
   border: 4px solid #d8bfd8;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 .profile-text h2 {
@@ -138,8 +139,8 @@ body {
   font-size: 1rem;
   color: #5f4b45;
   line-height: 1.8;
-  max-width: 90%;
-  margin: 0 auto 20px;
+  max-width: 100%;
+  margin: 0 auto 0px;
 }
 
 .social-links a {
@@ -251,7 +252,7 @@ body {
   text-align: center;
 
   font-size: 1rem;
-  color: #5f4b45;
+  color: #6e5c50;
   line-height: 1.8;
   max-width: 90%;
   margin: 0 auto 20px;
@@ -260,7 +261,7 @@ body {
 .contact-section h2 {
   font-size: 2em;
   margin-bottom: 1em;
-  color: #b26ba6; /* メインカラー系 */
+  color: #6e5c50; 
 }
 
 .contact-section {
@@ -269,17 +270,17 @@ body {
 }
 
 .contact-mail {
-  color: #704c9f;
+  color: #5472c4;
 }
 .contact-mail:hover {
-  color: #5a356a;
+  color: #2b468f;
 }
 
 /* フッター */
 
 .site-footer {
   background-color: #fff;
-  color: #704c9f; 
+  color: #6e5c50; 
   text-align: center;
   padding: 2em 1em;
   font-size: 0.9em;
@@ -370,4 +371,29 @@ body * {
   margin-left: auto;
   margin-right: auto;
   overflow-x: hidden;
+}
+
+/* プロフィール写真のブロック */
+body > .scroll-space:nth-of-type(2) .profile-section {
+  padding-bottom: 10px;
+}
+
+/* 名前・説明文のブロック */
+body > .scroll-space:nth-of-type(3) .profile-section {
+  padding-top: 10px;
+}
+
+.profile-image {
+  margin-bottom: 0;
+}
+
+.profile-text h2 {
+  margin-top: 0;
+  margin-bottom: 4px;
+  line-height: 1.25;
+}
+
+
+.description {
+  margin-top: 8px;
 }
